@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<javaScriptFFIContainer>
+    <namespaces name="signatureFFI">
+        <jsFunctions name="getSignature">
+            <mappings platformId="8">
+                <nativeFunction static="false" packageName="com.kony" name="getSign" library="signCapture.jar" frameworks="" className="Sign">
+                    <params dataType="com.konylabs.vm.Function"/>
+                    <versionSpecificLibraries>
+                        <entry>
+                            <key>5.0</key>
+                        </entry>
+                        <entry>
+                            <key>6.0</key>
+                        </entry>
+                    </versionSpecificLibraries>
+                </nativeFunction>
+            </mappings>
+            <mappings platformId="1">
+                <nativeFunction static="false" packageName="" name="" library="---None---" frameworks="" className="">
+                    <params dataType="Callback"/>
+                    <versionSpecificLibraries>
+                        <entry>
+                            <key>5.0</key>
+                        </entry>
+                        <entry>
+                            <key>6.0</key>
+                        </entry>
+                    </versionSpecificLibraries>
+                </nativeFunction>
+            </mappings>
+            <params name="callbackBase" dataType="Function"/>
+            <returnTypes>void</returnTypes>
+        </jsFunctions>
+        <jsFunctions name="getSignatureIphone">
+            <mappings platformId="1">
+                <nativeFunction static="false" packageName="" name="presentSignanurePainterWithTitle:strokeWidth:strokeColor:showClearButon:shakeToCancelEnabled:callback:" library="KonySignature.zip" frameworks="" className="KonySignature">
+                    <params dataType="NSString"/>
+                    <params dataType="int"/>
+                    <params dataType="NSString"/>
+                    <params dataType="BOOL"/>
+                    <params dataType="BOOL"/>
+                    <params dataType="Callback"/>
+                    <returnTypes>NSDictionary</returnTypes>
+                    <versionSpecificLibraries>
+                        <entry>
+                            <key>5.0</key>
+                        </entry>
+                        <entry>
+                            <key>6.0</key>
+                        </entry>
+                    </versionSpecificLibraries>
+                </nativeFunction>
+            </mappings>
+            <mappings platformId="8">
+                <nativeFunction static="false" packageName="" name="" library="---None---" frameworks="" className="">
+                    <params dataType="java.lang.String"/>
+                    <params dataType="int"/>
+                    <params dataType="java.lang.String"/>
+                    <params dataType="boolean"/>
+                    <params dataType="boolean"/>
+                    <params dataType="com.konylabs.vm.Function"/>
+                    <versionSpecificLibraries>
+                        <entry>
+                            <key>5.0</key>
+                        </entry>
+                        <entry>
+                            <key>6.0</key>
+                        </entry>
+                    </versionSpecificLibraries>
+                </nativeFunction>
+            </mappings>
+            <params name="Signature" dataType="String"/>
+            <params name="strokeWidth" dataType="Number"/>
+            <params name="strokeColor" dataType="String"/>
+            <params name="showClearButton" dataType="Boolean"/>
+            <params name="shakeToCancelEnabled" dataType="Boolean"/>
+            <params name="callBack" dataType="Function"/>
+            <returnTypes>Object</returnTypes>
+        </jsFunctions>
+    </namespaces>
+</javaScriptFFIContainer>

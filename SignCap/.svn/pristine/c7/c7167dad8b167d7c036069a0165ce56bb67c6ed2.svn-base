@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="PALSignatureCapture" id="PALSignatureCapture">
+    <container type="form" id="frmOfflineSigCapture" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmOfflineSigCaptureWrkng" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>

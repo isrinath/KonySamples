@@ -1,0 +1,20 @@
+#This file contains the lua m4Constants, the widgetQualifying ids and the type of the widget
+#Fri Jan 17 15:12:47 IST 2014
+~|~frmOfflineSigCaptureWrkng.hbox12667676473376=box
+~|~frmOfflineSigCapture.btnReset=button
+~|~frmOfflineSigCaptureWrkng.label12667676473382=label
+~|~frmOfflineSigCaptureWrkng.imgSign=image2
+~|~frmOfflineSigCaptureWrkng.hboxSign=box
+~|~frmOfflineSigCapture.hbox10427460035783=box
+~|~frmOfflineSigCapture=form2
+~|~frmOfflineSigCaptureWrkng.hboxSign1=box
+~|~frmOfflineSigCapture.hboxSign1=box
+~|~frmOfflineSigCaptureWrkng=form2
+~|~frmOfflineSigCapture.imgSign=image2
+~|~frmOfflineSigCapture.hbox12667676473376=box
+~|~frmOfflineSigCaptureWrkng.btnClearSignature=button
+~|~frmOfflineSigCaptureWrkng.btnReset=button
+~|~frmOfflineSigCapture.hboxSign=box
+~|~frmOfflineSigCapture.btnClickToSign=button
+~|~frmOfflineSigCapture.label12667676473382=label
+~|~frmOfflineSigCaptureWrkng.hbox10427460035783=box

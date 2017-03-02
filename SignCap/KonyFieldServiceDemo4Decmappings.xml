@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="KonyFieldServiceDemo4Dec" id="KonyFieldServiceDemo4Dec">
+    <container type="dialog" id="hdrLogo" displayname="Popup">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="dialog" id="footerMenu" displayname="Popup">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmAcceptOrRejectWO" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmAddWorkOrder1" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="combobox" id="comBxWOType" displayname="ComboBox"/>
+        <component type="combobox" id="comBxWOPriority" displayname="ComboBox"/>
+        <component type="combobox" id="comBxContractName" displayname="ComboBox"/>
+    </container>
+    <container type="form" id="frmAddWorkOrder2" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="textfield" id="txtbxCustomer" displayname="TextBox"/>
+        <component type="textfield" id="txtbxCustomerPh" displayname="TextBox"/>
+        <component type="textfield" id="txtbxCustomerEmail" displayname="TextBox"/>
+        <component type="combobox" id="comBxCustomerType" displayname="ComboBox"/>
+        <component type="textfield" id="txtbxCustSerLoc" displayname="TextBox"/>
+        <component type="textfield" id="txtbxCustSerLoc1" displayname="TextBox"/>
+        <component type="combobox" id="comBxVendorOrSupplier" displayname="ComboBox"/>
+        <component type="calendar" id="calStartDate" displayname="Calendar"/>
+        <component type="combobox" id="cbxStartTime" displayname="ComboBox"/>
+        <component type="calendar" id="calEndDate" displayname="Calendar"/>
+        <component type="combobox" id="cbxEndTime" displayname="ComboBox"/>
+        <component type="combobox" id="cobBxAssignedTo" displayname="ComboBox"/>
+        <component type="combobox" id="comBxPartsOrEquipments" displayname="ComboBox"/>
+    </container>
+    <container type="form" id="frmAddWorkOrder3" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="combobox" id="comBxRepeatEveryXDays" displayname="ComboBox"/>
+        <component type="combobox" id="comBxRepeatDays" displayname="ComboBox"/>
+        <component type="combobox" id="comBoxRepMonths" displayname="ComboBox"/>
+        <component type="combobox" id="comBxOccuEveryXDays1" displayname="ComboBox"/>
+        <component type="combobox" id="comBxOccuDays" displayname="ComboBox"/>
+        <component type="combobox" id="comBxOccuMonths" displayname="ComboBox"/>
+        <component type="calendar" id="calStartedOn" displayname="Calendar"/>
+        <component type="combobox" id="comBxNotExceed" displayname="ComboBox"/>
+        <component type="calendar" id="calEndBy" displayname="Calendar"/>
+    </container>
+    <container type="form" id="frmCalendar" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="calendar" id="calSchedule" displayname="Calendar"/>
+        <component type="segment" id="segWorkOrder" displayname="Segment"/>
+    </container>
+    <container type="form" id="frmCalenderDayView" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmCloseWorkOrder" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="combobox" id="comBxResolCode" displayname="ComboBox"/>
+        <component type="combobox" id="comBxReplacedPartNo" displayname="ComboBox"/>
+        <component type="combobox" id="comBxQuantity" displayname="ComboBox"/>
+    </container>
+    <container type="form" id="frmCloseWorkOrder2" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="combobox" id="comBxReturnedParts" displayname="ComboBox"/>
+        <component type="combobox" id="cmbReason" displayname="ComboBox"/>
+    </container>
+    <container type="form" id="frmCustRoutesMap" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="map" id="mapCustRoutes" displayname="Map">
+            <attributes value="0J1-BltkMID9YJQk_ktmuqO5xRAfB_ZT_AsmvMg" platform="general" name="key" datatype="string"/>
+        </component>
+    </container>
+    <container type="form" id="frmCustomerEquipment" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="textfield" id="textboxSearch" displayname="TextBox"/>
+        <component type="segment" id="segParts" displayname="Segment"/>
+    </container>
+    <container type="form" id="frmCustomerInput" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmCustomerInvoiceDetails" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmCustomerProfile" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmExitWorkOrder" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="textfield" id="txtbxOdometryEntry" displayname="TextBox"/>
+        <component type="combobox" id="comBxOdometerType" displayname="ComboBox"/>
+    </container>
+    <container type="form" id="frmForgotPassword" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="textfield" id="txtTechID" displayname="TextBox"/>
+        <component type="textfield" id="txtCompName" displayname="TextBox"/>
+        <component type="textfield" id="txtPhoneNum" displayname="TextBox"/>
+    </container>
+    <container type="form" id="frmInvoices" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="textfield" id="textboxSearch" displayname="TextBox"/>
+        <component type="segment" id="segInvoices" displayname="Segment"/>
+    </container>
+    <container type="form" id="frmPartsSearchResults" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="segment" id="segPartsSuggest" displayname="Segment"/>
+    </container>
+    <container type="form" id="frmPartsServicedVA" displayname="Form"/>
+    <container type="form" id="frmPhoto" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmRejectWorkOrder" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="combobox" id="comBxRejectionReasons" displayname="ComboBox"/>
+    </container>
+    <container type="form" id="frmRequestTime" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="combobox" id="comBxReqTime" displayname="ComboBox"/>
+        <component type="combobox" id="comBxReason" displayname="ComboBox"/>
+    </container>
+    <container type="form" id="frmShowCustAddrDirections" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmShowMapDirections" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmViewCustomers" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="textfield" id="txtboxSearch" displayname="TextBox"/>
+        <component type="segment" id="segCustomersList" displayname="Segment"/>
+    </container>
+    <container type="form" id="frmViewServiceHistoryVA" displayname="Form">
+        <component type="calendar" id="calToDate" displayname="Calendar"/>
+        <component type="calendar" id="calFrmDate" displayname="Calendar"/>
+    </container>
+    <container type="dialog" id="popMenuDrawer" displayname="Popup"/>
+    <container type="dialog" id="popOrderQuantity" displayname="Popup">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="combobox" id="comBxQuantity" displayname="ComboBox"/>
+    </container>
+    <container type="dialog" id="popupFilters" displayname="Popup">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="segment" id="segFilters" displayname="Segment"/>
+    </container>
+    <container type="dialog" id="popupMenu" displayname="Popup">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmAddWorkOrder2" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="textfield" id="txtbxCustomer" displayname="TextBox"/>
+        <component type="textfield" id="txtbxCustomerPh" displayname="TextBox"/>
+        <component type="textfield" id="txtbxCustomerEmail" displayname="TextBox"/>
+        <component type="combobox" id="comBxCustomerType" displayname="ComboBox"/>
+        <component type="textfield" id="txtbxCustSerLoc" displayname="TextBox"/>
+        <component type="textfield" id="txtbxCustSerLoc1" displayname="TextBox"/>
+        <component type="combobox" id="comBxVendorOrSupplier" displayname="ComboBox"/>
+        <component type="calendar" id="calStartDate" displayname="Calendar"/>
+        <component type="combobox" id="cbxStartTime" displayname="ComboBox"/>
+        <component type="calendar" id="calEndDate" displayname="Calendar"/>
+        <component type="combobox" id="cbxEndTime" displayname="ComboBox"/>
+        <component type="combobox" id="cobBxAssignedTo" displayname="ComboBox"/>
+        <component type="combobox" id="comBxPartsOrEquipments" displayname="ComboBox"/>
+    </container>
+    <container type="dialog" id="hdrLogout" displayname="Popup">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="dialog" id="hdrWithBackLogout" displayname="Popup">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmAccessDocument" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="textfield" id="textboxSearch" displayname="TextBox"/>
+        <component type="segment" id="segDocuments" displayname="Segment"/>
+    </container>
+    <container type="form" id="frmAlerts" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="segment" id="segAlerts" displayname="Segment"/>
+    </container>
+    <container type="form" id="frmCustomerDetails" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmCustomerEquipmentDetails" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmCustomerWorkOrder" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="textfield" id="textboxSearch" displayname="TextBox"/>
+        <component type="segment" id="segCustomerWorkOrder" displayname="Segment"/>
+    </container>
+    <container type="form" id="frmCustomerWorkOrderDetails" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmDashBoard" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmDashBoardNew" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmLoginVA" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="textfield" id="txtIdVA" displayname="TextBox"/>
+        <component type="textfield" id="txtPasswdVA" displayname="TextBox"/>
+    </container>
+    <container type="form" id="frmPartsLogistics" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmPartsSearch" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="combobox" id="comBxPartNumber" displayname="ComboBox"/>
+        <component type="textfield" id="txtSearchParts" displayname="TextBox"/>
+        <component type="segment" id="segPartsSuggest" displayname="Segment"/>
+    </container>
+    <container type="form" id="frmPreviewWorkOrder" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmRoutes" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="textfield" id="txtSourceAddr" displayname="TextBox"/>
+        <component type="textfield" id="txtTargetAddr" displayname="TextBox"/>
+        <component type="combobox" id="cmbxSrcLoc" displayname="ComboBox"/>
+        <component type="combobox" id="cmbxDestLoc" displayname="ComboBox"/>
+        <component type="segment" id="segWOAddr" displayname="Segment"/>
+    </container>
+    <container type="form" id="frmRoutesMap" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="map" id="mapWORoutes" displayname="Map">
+            <attributes value="0J1-BltkMID9YJQk_ktmuqO5xRAfB_ZT_AsmvMg" platform="general" name="key" datatype="string"/>
+        </component>
+    </container>
+    <container type="form" id="frmServiceHistory" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="segment" id="segServiceHistory" displayname="Segment">
+            <attributes value="pageview" platform="general" name="view" datatype="string"/>
+        </component>
+    </container>
+    <container type="form" id="frmShowDocumentDetails" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmStartWorkOrder" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmWorkOrder" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+        <component type="calendar" id="calDate" displayname="Calendar"/>
+        <component type="textfield" id="textboxSearch" displayname="TextBox"/>
+        <component type="segment" id="segWorkOrder" displayname="Segment"/>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>

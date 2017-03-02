@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Review id="Dec18">
+  <ReviewIssue id="HAUXBHOT">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 16:32:41:741 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 16:33:03:319 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="7">modules/js/ConfigurationVA.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary>Comments</Summary>
+    <Description>Comments are not in correct format</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUXNH34">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 16:42:00:832 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 16:42:33:267 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="8">modules/js/ConfigurationVA.js</File>
+    <Type>item.type.label.programLogic</Type>
+    <Severity>item.severity.label.critical</Severity>
+    <Summary>Is this function required? Are all the variables declared here required?</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUZ1T1J">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:21:09:127 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:21:38:455 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="2">modules/js/NewGlobals.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Should be i18n keys.</Summary>
+    <Description>There should be NO HARDCODED STRINGS.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUZ57SM">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:23:48:214 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:24:29:982 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="122">modules/js/ConfigurationVA.js</File>
+    <Type>item.type.label.suggestion</Type>
+    <Severity>item.severity.label.minor</Severity>
+    <Summary>Can be done in one line</Summary>
+    <Description>"	var idleTimeout = kony.os.toNumber(kony.i18n.getLocalizedString("app.idletimeout"));
+" can be called in next line without initialising a new variable</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUZD9EZ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:30:03:563 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:30:19:724 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="10">modules/js/NewDashBoardVA.js</File>
+    <Type>item.type.label.programLogic</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary>Global defined in wrong place</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUZDVM6">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:30:32:334 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 22:57:53:949 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="11">modules/js/NewDashBoardVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>gFlag is not required to be a global variable</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUZG7J2">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:32:21:086 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:33:19:459 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="3">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.type.label.programLogic</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary>"searchString" should be removed, does not need to be a global variable.</Summary>
+    <Description>searchString</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUZHMP6">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:33:27:402 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:33:54:679 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="8">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>i18n values should be used instead of hardcoded value.</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUZIWD2">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:34:26:582 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:34:30:683 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="261">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>i18n values should be used instead of hardcoded value.</Summary>
+    <Description>HOLD</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUZKN8I">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:35:48:066 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:35:56:825 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="261">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>should be i18n</Summary>
+    <Description>	woStatus = "HOLD";
+	gWorkOrderstate1 = "On hold";
+	gWorkOrderstate2 = "";	
+	coming_frm_alerts = false;
+	frmStartWorkOrder.show ();
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUZNLWG">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:38:06:304 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 15:45:38:813 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>vijaya</AssignedTo>
+    <File line="264">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.type.label.programLogic</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>Is this required? remove</Summary>
+    <Description>coming_frm_alerts</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.resolution.label.validNeedsfixing</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUZOQL5">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:38:59:033 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:40:37:448 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>vijaya</AssignedTo>
+    <File line="260">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Should use the common utility</Summary>
+    <Description>kony.os.deviceInfo().name</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAUZUV5H">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:43:44:885 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:44:14:730 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="42">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.type.label.programLogic</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>gTodayDate should be global table</Summary>
+    <Description>gTodayDate</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAV02SEZ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:49:54:587 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:51:16:519 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="33">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.type.label.programLogic</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary>gFlag can be removed.</Summary>
+    <Description>1. Set the date in calendar widget, 2. in getAllWorkOrdersVA(), read calendar widget value.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAV0A8D4">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:55:41:848 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 17:55:57:909 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="46">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>No function level comments :)</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAV0GRWU">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 18:00:47:118 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-18 :: 18:01:03:547 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="49">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>variable name should be changed to something more meaningful</Summary>
+    <Description>res</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWQKH9Q">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 22:59:16:142 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 22:59:36:528 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="20">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Is gcalSelection required? Does it need to be a global variable?</Summary>
+    <Description>gcalSelection</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWREP20">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:22:45:912 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:23:10:217 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.type.label.usability</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Print statement must be more meaningful</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWRGCRW">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:24:03:308 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:24:26:999 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="9">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.severity.label.critical</Severity>
+    <Summary>woStatus -- global variable not defined in globalsinit() </Summary>
+    <Description>woStatus</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWRH255">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:24:36:185 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:24:58:322 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="301">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use common devicetype function</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWRWDOA">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:36:30:970 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:36:46:049 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="34">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>gcalSelection -- is this flag reqd?</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWRWYRJ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:36:58:303 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:37:13:161 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="341">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>remove "searchString" variable call</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWRXETS">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:37:19:120 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:37:46:376 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="352">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>values_of_statuses must be i18n keys</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWRY6PE">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:37:55:250 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:38:09:903 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="372">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>gMatchSearchStr -- no longer reqd, remove from code</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWRZO28">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:39:04:400 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:39:28:555 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="70">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>should not use kony.decrement in new JS code. This was only used to overcode porting issues.</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWS2JRJ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:41:18:799 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:41:50:334 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="62">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>gMatchSearchStr -- what is this used for?</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWS3L0O">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:42:07:080 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:42:39:020 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="75">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>If truncating the code, must add "..." to show that the customer name has been shortened</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWS6HCD">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:44:22:285 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:44:56:529 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="77">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>read "arrow.png" and "|" from i18n key</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWS9C3A">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:46:35:446 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:47:14:520 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="81">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Widgetdatamap must be called in transactiondataload(), so that it can be set only once.</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSCLD8">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:49:07:436 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:49:24:380 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="182">modules/js/syncVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Multiple functions defined inside one function -- why?</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSFPEU">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:51:32:646 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:53:38:040 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="87">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>konysyncLastObject -- Is this required to be a global variable?</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSIHBT">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:53:42:137 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:53:51:624 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="92">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>use common devicetype function</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSMTVL">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:57:05:025 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:57:23:479 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="118">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>function called inside another function -- Copy paste mistake?</Summary>
+    <Description>	function getFirstRecordDetailsSuccVA(res){
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSNW3B">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:57:54:551 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:58:53:571 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="178">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>function inside another -- any advantages?</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSPFLL">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:59:06:489 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:59:20:389 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="169">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use i18n keys</Summary>
+    <Description>				if((kony.string.equalsIgnoreCase(gSelectedWorkOrder.status, "Not yet started"))){
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSPU7W">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:59:25:436 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:59:36:728 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="172">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use common deviceType function</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSQ7VF">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-19 :: 23:59:43:131 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-20 :: 00:00:05:063 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="171">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>"coming_frm_alerts" variable not required</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSR5PY">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-20 :: 00:00:26:998 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-20 :: 00:00:30:670 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="173">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary></Summary>
+    <Description>gSelectedWorkOrder</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSR9OP">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-20 :: 00:00:32:137 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-20 :: 00:01:27:610 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="173">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>This does not need to be a global variable. Can be passed into the function as inputparam</Summary>
+    <Description>gSelectedWorkOrder. Also change the variable name</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSTAN1">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-20 :: 00:02:06:685 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-20 :: 00:02:15:728 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="179">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>"coming_from_workorders" not required.</Summary>
+    <Description>coming_from_workorders</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSTNJS">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-20 :: 00:02:23:416 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-20 :: 00:02:30:166 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="182">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>"coming_frm" not required</Summary>
+    <Description>coming_frm</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAWSU383">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-20 :: 00:02:43:731 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-20 :: 00:02:59:066 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="193">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Check if konysyncLastObject can be removed</Summary>
+    <Description>konysyncLastObject</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYP6QK5">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 07:56:07:733 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 07:56:24:698 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="235">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.type.label.optimization</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>use common utility function</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYP7G87">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 07:56:40:999 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 07:56:55:710 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="226">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>gFlag to be removed</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYP9L87">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 07:58:20:791 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 07:58:34:853 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="377">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Move function to utility file</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPAK3M">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 07:59:05:986 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:01:07:508 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="392">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.type.label.optimization</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary>Formatting for the date should be picked up from a common place. </Summary>
+    <Description>Retrieve date format from i18n, eg : 
+dateFormat = dd/mm/yyyy, or 
+dateFormat = mm/dd/yyyy
+
+Add utility function to read/format the date in the given format.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPDGJY">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:01:21:358 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:02:09:218 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="416">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use common date formatting function.</Summary>
+    <Description>Also use common date formatting function to retrieve desired date format.( details in previous review comment)</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPERV4">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:02:22:672 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:04:06:581 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="434">modules/js/NewWorkOrderVA.js</File>
+    <Type>item.type.label.optimization</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>Can this flag be removed and any other existing flag be user for this? eg. selected WO record?</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPHSHQ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:04:43:454 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:04:59:617 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="43">modules/js/previewWOTablet.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Move code to common utility function</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPIA2U">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:05:06:246 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:05:09:306 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="37">modules/js/previewWOTablet.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Move code to common utility function</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPIGLH">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:05:14:693 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:05:31:332 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="38">modules/js/previewWOTablet.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Display String must be picked up from i18n</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPIXQG">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:05:36:904 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:09:19:235 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File></File>
+    <Type>item.type.label.usability</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>Add a mapping function for i18n strings.</Summary>
+    <Description>Mapping function must map a keyword to required i18n key name. eg :
+
+{
+COMMONNOTIMPLEMENTEDMESSAGE:  commonva.notinscope,
+WORKORDER					: commonVA.workorder
+
+}
+
+where commonva.notinscope, commonVA.workorder are i18n keys
+
+Helps have a direct view of which module uses what i18ns.
+
+Team to discuss if such detail is good to have or ignorable</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPQIGP">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:11:30:361 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:12:07:888 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File></File>
+    <Type>item.type.label.clarity</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>Remove demo files -- ensure no demo-app generated code is used in the Production app.</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPTF55">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:13:46:025 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:13:54:387 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/actionMapping.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Add comments</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPWT16">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:16:23:994 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:16:40:856 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/ConfigurationVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Comments not in VA format -- modify</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPYJ9H">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:17:44:645 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:17:58:511 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/ConfigurationVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Remove data abstraction code - no longer required</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYPZ3WR">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:18:11:403 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:18:25:977 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/dashBoardVA.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Add comments</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQ09NI">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:19:05:502 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:19:15:101 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/FSutilVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>comments not in VA format</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQ12TV">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:19:43:315 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:19:58:110 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="80">modules/js/FSutilVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>remove code if not implemented</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQ3VPC">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:21:54:048 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:22:28:791 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/fieldValidationsVA.js</File>
+    <Type>item.type.label.missing</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Comments! add new ones + modify to VA format</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQ4Z5C">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:22:45:168 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:23:37:198 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="110">modules/js/fieldValidationsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Login specific code should not be in this module. Move to NewLoginVA.js</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQ65M5">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:23:40:205 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:23:47:147 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="110">modules/js/fieldValidationsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Add generic error message utility here</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQ6G3Y">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:23:53:806 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:24:04:625 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/formMappingVA.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>COmments</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQ7FX0">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:24:40:212 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:24:50:952 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/loginFsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Delete file if code not used.</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQ7XHO">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:25:02:988 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:25:10:160 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/NewAcceptWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Comments plz!</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQ8C2E">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:25:21:878 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:28:57:791 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="54">modules/js/NewAcceptWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Flag can be removed. If back form is required, use the back utility functions</Summary>
+    <Description>Ref. backUtilityVA.js</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQB1NX">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:27:28:365 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:28:48:879 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File></File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Add links to back utility</Summary>
+    <Description>Ref backUtilityVA.js</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQD6TY">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:29:08:374 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:29:23:054 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="69">modules/js/NewAcceptWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>use more understandable variables</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQE40D">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:29:51:373 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:29:55:645 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="74">modules/js/NewAcceptWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>use more understandable variables</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQEMIN">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:30:15:359 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:30:37:514 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="12">modules/js/NewEmailandCall.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.severity.label.critical</Severity>
+    <Summary>MOVE USED FUNCTIONS TO COMMON UTILITY FILE</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQG185">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:31:21:077 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:32:21:449 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="25">modules/js/NewEmailandCall.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use a generic variableName instead of making it specific to technician</Summary>
+    <Description>eg. 
+
+
+function dialNumberVA( numberToCall ){
+	kony.print(" numberToCall::::::::::"+ numberToCall)
+	kony.phone.dial(numberToCall);
+}</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQHK59">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:32:32:253 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:32:48:841 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="85">modules/js/NewAcceptWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>All messages MUST MUST MUST be from the i18n repository</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQI7NR">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:33:02:727 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:35:08:254 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File></File>
+    <Type>item.type.label.optimization</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary>Add a common utility function for alert messages</Summary>
+    <Description>eg. 
+
+function showErrorAlert( inputMessage )
+{
+		kony.ui.Alert(inputMessage , null, "error", "Ok", "", "", null);
+}
+
+similarily : 
+function showInfoAlert( inputMessage )
+{
+		kony.ui.Alert(inputMessage , null, "info", "Ok", "", "", null);
+}
+
+ALSO -- ENSURE THE NEW kony.ui.alert() format is followed. DO NOT use the older format anywhere in code.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQLCT4">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:35:29:368 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:35:37:115 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/NewAccesDocuments.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>comments must be in VA format</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQLVZT">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:35:54:233 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:36:05:235 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="23">modules/js/NewAccesDocuments.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use more understandable variableName</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQN3EY">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:36:50:506 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:37:31:165 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="87">modules/js/NewAccesDocuments.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>modify to %searchString%</Summary>
+    <Description>currently only searchString% is being searched.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQO8BM">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:37:43:522 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:37:59:628 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="86">modules/js/NewAccesDocuments.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>double "t" in function name</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQP03Y">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:38:19:534 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:38:40:815 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="123">modules/js/NewAccesDocuments.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use more formal print messages, use common print utility</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQRE59">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:40:11:037 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:41:00:057 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="64">modules/js/FSutilVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>the isAndroidVA(), isiPhoneVA() etc. functions are almost similar to checkDevicePlatformVA()</Summary>
+    <Description>Use only one of the functions. Define the difference between these two functions</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQSWV6">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:41:21:954 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:41:39:367 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File></File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Add comments to all modules, in correct VA format</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQTDEQ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:41:43:394 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:41:49:270 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File></File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use the back utility</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQTN7E">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:41:56:090 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:42:22:952 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File></File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>change sync example variables like "wcs" or "res" to more meaningful variableNames</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYQUPN1">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:42:45:901 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 08:42:58:569 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="113">modules/js/NewCloseWorkOrder.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>global variable not reqd. here</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYRL3F5">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:03:16:817 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:03:54:094 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="48">modules/js/NewCloseWorkOrder.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use common print utility for print statements, don't use unneccessary symbols :) eg "!!!!"</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYRM1A3">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:04:00:699 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:04:27:416 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="49">modules/js/NewCloseWorkOrder.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>flag not required. check if same result can be captured from the back utility.</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYRMS93">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:04:35:655 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:04:46:045 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="57">modules/js/NewCloseWorkOrder.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>remove global, change usage</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYRN8TJ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:04:57:127 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:05:02:545 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="77">modules/js/NewCloseWorkOrder.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>must be i18n string</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYRO5EK">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:05:39:356 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:05:46:024 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="203">modules/js/NewCloseWorkOrder.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>must be an i18n string</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYROVO2">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:06:13:394 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:06:40:120 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="245">modules/js/NewCloseWorkOrder.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>these need not be made global variables. access the form elements from the required pages directly.</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYRPVE2">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:06:59:690 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:07:56:759 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="308">modules/js/NewCloseWorkOrder.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Need not be a global variable. Access required form elements directly.</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYRRJ47">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:08:17:095 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:08:30:642 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="5">modules/js/NewCustomerInput.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>global not reqd. use form elements to get the data reqd.</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAYRSE1T">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:08:57:185 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 09:09:05:436 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/NewGlobals.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Add a reset function here</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAZ90D29">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:11:02:625 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:11:18:585 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="43">modules/js/NewInitiateWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Comments, use i18n keys</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAZ90ZXT">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:11:32:273 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:11:50:951 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="80">modules/js/NewInitiateWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>"searchString" Not required</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAZ91K1Y">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:11:58:342 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:12:10:680 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="91">modules/js/NewInitiateWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>coming_to_parts_frm_wos not reqd, use back utility is reqd.</Summary>
+    <Description>coming_to_parts_frm_wos</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAZ938JE">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:13:16:730 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:14:36:462 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="177">modules/js/NewInitiateWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Time formatting must be done in a seperate utility function. read time format from a i18n config key</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAZ95OOM">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:15:10:966 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:15:27:655 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="333">modules/js/NewInitiateWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>use utility function to get current date -- already exists</Summary>
+    <Description>	var currentDate = kony.os.date("mm/dd/yyyy") + "";
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAZ96VBM">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:16:06:226 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:16:43:657 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="91">modules/js/NewLoginVA.js</File>
+    <Type>item.type.label.programLogic</Type>
+    <Severity>item.severity.label.critical</Severity>
+    <Summary>Add better checks for sync error messages --- with this code all error messages show "Invalid username/password" -- misleading</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAZ980UO">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:17:00:048 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:17:39:604 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="172">modules/js/NewLoginVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Add new function to reset global variables. -- and call that function in logout</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAZ99LLL">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:18:13:593 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-21 :: 17:18:41:382 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="37">modules/js/NewPartsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>this flag can be removed -- can use back utility to get previous form</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+</Review>

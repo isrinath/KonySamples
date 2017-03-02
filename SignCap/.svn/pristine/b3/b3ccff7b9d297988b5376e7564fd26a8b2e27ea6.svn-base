@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="KonyFieldServiceDemo" id="KonyFieldServiceDemo">
+    <container type="form" id="frmCustomerInput" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <container type="form" id="frmCustomerInput" displayname="Form">
+        <attributes value="true" platform="general" name="oldproject" datatype="boolean"/>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>

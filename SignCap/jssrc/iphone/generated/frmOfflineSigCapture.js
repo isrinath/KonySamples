@@ -1,0 +1,209 @@
+//Form JS File
+function frmOfflineSigCapture_hbox10427460035783_onClick_seq0(eventobject) {
+    onClickhboxSign.call(this);
+};
+
+function frmOfflineSigCapture_btnClickToSign_onClick_seq0(eventobject) {
+    onClickhboxSign.call(this);
+};
+
+function frmOfflineSigCapture_hboxClear_onClick_seq0(eventobject) {
+    onClickhboxSign.call(this);
+};
+
+function frmOfflineSigCapture_btnReset_onClick_seq0(eventobject) {
+    reset.call(this);
+};
+
+function frmOfflineSigCapture_hboxSign_onClick_seq0(eventobject) {
+    onClickhboxSign.call(this);
+};
+
+function addWidgetsfrmOfflineSigCapture() {
+    var label12667676473382 = new kony.ui.Label({
+        "id": "label12667676473382",
+        "isVisible": true,
+        "text": "Offline Signature Capture",
+        "skin": "TitleBarLbl"
+    }, {
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
+        "vExpand": false,
+        "hExpand": false,
+        "margin": [1, 1, 1, 1],
+        "padding": [1, 1, 1, 1],
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "marginInPixel": true,
+        "paddingInPixel": true,
+        "containerWeight": 100
+    }, {
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var hbox12667676473376 = new kony.ui.Box({
+        "id": "hbox12667676473376",
+        "isVisible": true,
+        "position": constants.BOX_POSITION_AS_NORMAL,
+        "orientation": constants.BOX_LAYOUT_HORIZONTAL
+    }, {
+        "containerWeight": 6,
+        "percent": true,
+        "widgetAlignment": constants.WIDGET_ALIGN_TOP_LEFT,
+        "margin": [0, 40, 0, 0],
+        "padding": [0, 0, 0, 0],
+        "vExpand": false,
+        "marginInPixel": false,
+        "paddingInPixel": false,
+        "layoutType": constants.CONTAINER_LAYOUT_BOX
+    }, {});
+    hbox12667676473376.add(
+    label12667676473382);
+    var btnClickToSign = new kony.ui.Button({
+        "id": "btnClickToSign",
+        "isVisible": true,
+        "text": "Click to Sign",
+        "skin": "btnSave",
+        "focusSkin": "btnSaavef",
+        "onClick": frmOfflineSigCapture_btnClickToSign_onClick_seq0
+    }, {
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
+        "vExpand": false,
+        "hExpand": true,
+        "margin": [0, 0, 0, 0],
+        "padding": [0, 0, 0, 0],
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "marginInPixel": false,
+        "paddingInPixel": false,
+        "containerWeight": 100
+    }, {
+        "glowEffect": false,
+        "showProgressIndicator": true
+    });
+    var hbox10427460035783 = new kony.ui.Box({
+        "id": "hbox10427460035783",
+        "isVisible": true,
+        "onClick": frmOfflineSigCapture_hbox10427460035783_onClick_seq0,
+        "position": constants.BOX_POSITION_AS_NORMAL,
+        "orientation": constants.BOX_LAYOUT_HORIZONTAL
+    }, {
+        "containerWeight": 17,
+        "percent": true,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
+        "margin": [12, 7, 12, 7],
+        "padding": [0, 0, 0, 0],
+        "vExpand": false,
+        "marginInPixel": true,
+        "paddingInPixel": false,
+        "layoutType": constants.CONTAINER_LAYOUT_BOX
+    }, {});
+    hbox10427460035783.add(
+    btnClickToSign);
+    var btnReset = new kony.ui.Button({
+        "id": "btnReset",
+        "isVisible": true,
+        "text": "Clear Signature",
+        "skin": "btnSave",
+        "focusSkin": "btnSaavef",
+        "onClick": frmOfflineSigCapture_btnReset_onClick_seq0
+    }, {
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
+        "vExpand": false,
+        "hExpand": true,
+        "margin": [0, 0, 0, 0],
+        "padding": [0, 0, 0, 0],
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "marginInPixel": false,
+        "paddingInPixel": false,
+        "containerWeight": 100
+    }, {
+        "glowEffect": false,
+        "showProgressIndicator": true
+    });
+    var hboxClear = new kony.ui.Box({
+        "id": "hboxClear",
+        "isVisible": false,
+        "onClick": frmOfflineSigCapture_hboxClear_onClick_seq0,
+        "position": constants.BOX_POSITION_AS_NORMAL,
+        "orientation": constants.BOX_LAYOUT_HORIZONTAL
+    }, {
+        "containerWeight": 17,
+        "percent": true,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
+        "margin": [12, 7, 12, 7],
+        "padding": [0, 0, 0, 0],
+        "vExpand": false,
+        "marginInPixel": true,
+        "paddingInPixel": false,
+        "layoutType": constants.CONTAINER_LAYOUT_BOX
+    }, {});
+    hboxClear.add(
+    btnReset);
+    var imgSign = new kony.ui.Image2({
+        "id": "imgSign",
+        "isVisible": true,
+        "src": null,
+        "imageWhenFailed": null,
+        "imageWhileDownloading": null
+    }, {
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
+        "margin": [0, 0, 0, 0],
+        "padding": [0, 0, 0, 0],
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "referenceWidth": 200,
+        "referenceHeight": 200,
+        "marginInPixel": false,
+        "paddingInPixel": false,
+        "containerWeight": 100
+    }, {
+        "glossyEffect": constants.IMAGE_GLOSSY_EFFECT_DEFAULT
+    });
+    var hboxSign = new kony.ui.Box({
+        "id": "hboxSign",
+        "isVisible": true,
+        "onClick": frmOfflineSigCapture_hboxSign_onClick_seq0,
+        "position": constants.BOX_POSITION_AS_NORMAL,
+        "orientation": constants.BOX_LAYOUT_HORIZONTAL
+    }, {
+        "containerWeight": 35,
+        "percent": true,
+        "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
+        "margin": [0, 5, 0, 0],
+        "padding": [0, 0, 0, 0],
+        "vExpand": false,
+        "marginInPixel": true,
+        "paddingInPixel": false,
+        "layoutType": constants.CONTAINER_LAYOUT_BOX
+    }, {});
+    hboxSign.add(
+    imgSign);
+    frmOfflineSigCapture.add(
+    hbox12667676473376, hbox10427460035783, hboxClear, hboxSign);
+};
+
+function frmOfflineSigCaptureGlobals() {
+    var MenuId = [];
+    frmOfflineSigCapture = new kony.ui.Form({
+        "id": "frmOfflineSigCapture",
+        "title": null,
+        "skin": "frmBg",
+        "addWidgets": addWidgetsfrmOfflineSigCapture
+    }, {
+        "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
+        "layoutType": constants.CONTAINER_LAYOUT_BOX
+    }, {
+        "needsIndicatorDuringPostShow": false,
+        "formTransparencyDuringPostShow": "100",
+        "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_NONE,
+        "bounces": true,
+        "configureExtendTop": false,
+        "configureExtendBottom": false,
+        "configureStatusBarStyle": false,
+        "titleBar": false,
+        "footerOverlap": false,
+        "headerOverlap": false,
+        "needAppLevelMenu": true,
+        "enabledForIdleTimeout": true,
+        "transitionEffect": "none",
+        "transitionDirection": "none"
+    });
+};

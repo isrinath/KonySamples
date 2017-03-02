@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Review id="Dec11">
+  <ReviewIssue id="HAKV40N5">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-11 :: 15:33:12:065 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-11 :: 15:34:30:778 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="182">modules/js/WorkOrderTablet.js</File>
+    <Type>item.type.label.programLogic</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary>kony.os.dateComponents is used to read calendar widget.</Summary>
+    <Description>Read today's date and display</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAKV5ZPA">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-11 :: 15:34:44:158 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-11 :: 15:35:07:384 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="196">modules/js/WorkOrderTablet.js</File>
+    <Type>item.type.label.programLogic</Type>
+    <Severity>item.severity.label.critical</Severity>
+    <Summary>app.headers not available in 5.0 release</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HAMFWL7K">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-12 :: 18:03:03:584 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2012-12-12 :: 18:03:33:028 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>chaitanya</ReviewerId>
+    <AssignedTo>chaitanya</AssignedTo>
+    <File line="1">modules/js/ConfigurationVA.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary>Incorrect format for Comments</Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+</Review>

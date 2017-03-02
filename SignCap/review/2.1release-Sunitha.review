@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Review id="2.1release">
+  <ReviewIssue id="HJ6Z6QYG">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 16:15:52:504 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 16:16:30:998 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Sunitha</AssignedTo>
+    <File line="9">modules/js/EquipmentVA.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary></Summary>
+    <Description>Method Name should end with VA</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ6ZBQJI">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 16:19:45:246 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 16:21:15:157 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Madhuri</AssignedTo>
+    <File line="51">modules/js/EquipmentVA.js</File>
+    <Type>item.type.label.optimization</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary></Summary>
+    <Description>Use commonPrintVA method instead of kony.print</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ6ZEYZQ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 16:22:16:166 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 16:22:21:259 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Sunitha</AssignedTo>
+    <File line="54">modules/js/EquipmentVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary></Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ6ZG5T1">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 16:23:11:653 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 16:24:37:128 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Madhuri</AssignedTo>
+    <File line="66">modules/js/EquipmentVA.js</File>
+    <Type>item.type.label.usability</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary></Summary>
+    <Description>No need of focusedItems var, we can directly retreive the object dierectly.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ7BQBMS">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 22:07:01:156 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 22:09:31:566 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Madhuri</AssignedTo>
+    <File line="64">modules/js/EquipmentVA.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary></Summary>
+    <Description>Method name should end with VA</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ7BR97M">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 22:07:44:674 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-16 :: 22:09:04:759 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Madhuri</AssignedTo>
+    <File line="66">modules/js/EquipmentVA.js</File>
+    <Type>item.type.label.programLogic</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary></Summary>
+    <Description>Focuseditems variable is not required. As there is change in the value, we can directly assign it to focusedItem variable</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ80VUSB">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 09:51:09:659 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 09:51:48:215 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Rohan</AssignedTo>
+    <File line="3">modules/js/InitiateWOCamera.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary></Summary>
+    <Description>File name should end with VA </Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ80WT7S">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 09:51:54:280 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 09:52:20:498 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Rohan</AssignedTo>
+    <File line="5">modules/js/InitiateWOCamera.js</File>
+    <Type>item.type.label.codingStandards</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary></Summary>
+    <Description>Method name should end with VA</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ81GYE6">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 10:07:34:110 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 10:08:10:524 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Rohan</AssignedTo>
+    <File line="58">modules/js/InitiateWOCamera.js</File>
+    <Type>item.type.label.programLogic</Type>
+    <Severity>item.severity.label.normal</Severity>
+    <Summary></Summary>
+    <Description>Check the condition with trim, to avoid the empty spaces as image name</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ81MR88">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 10:12:04:760 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 10:12:04:830 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Sunitha</AssignedTo>
+    <File line="66">modules/js/InitiateWOCamera.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary></Summary>
+    <Description></Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ81MZTW">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 10:12:15:908 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 10:13:35:024 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Rohan</AssignedTo>
+    <File line="66">modules/js/InitiateWOCamera.js</File>
+    <Type>item.type.label.optimization</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary></Summary>
+    <Description>updateRequestedWorkOrder should be local var, it should not be a global variable as this is not required to be in the app further. As we are calling the update methos in the same block</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ81SR15">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 10:16:44:441 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 10:17:08:359 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Sunitha</AssignedTo>
+    <File line="69">modules/js/InitiateWOCamera.js</File>
+    <Type>item.type.label.optimization</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary></Summary>
+    <Description>No need of calling twice the </Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ81TEXM">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 10:17:15:418 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 10:18:23:470 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Rohan</AssignedTo>
+    <File line="69">modules/js/InitiateWOCamera.js</File>
+    <Type>item.type.label.optimization</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary></Summary>
+    <Description>WorkOrderDetails.updateByPK is there twice, one in success call back and in this method. Pls remove it, there should be one call to DB to update the data.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ85CG3Q">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 11:56:02:246 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 11:56:41:564 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Rohan</AssignedTo>
+    <File line="139">modules/js/InitiateWOCamera.js</File>
+    <Type>item.type.label.optimization</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary></Summary>
+    <Description>Get the error msgs from i18, dont hard code</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJ8HL6N6">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-17 :: 17:38:45:282 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-18 :: 10:22:02:179 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Sunitha</ReviewerId>
+    <AssignedTo>Sunitha</AssignedTo>
+    <File line="69">modules/js/InitiateWOCamera.js</File>
+    <Type>item.type.label.optimization</Type>
+    <Severity>item.severity.label.major</Severity>
+    <Summary></Summary>
+    <Description>Both if and else is </Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+</Review>

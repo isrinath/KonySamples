@@ -1,0 +1,1888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Review id="30Jul2013-AccessDocsController.js">
+  <ReviewIssue id="HJQKHFJX">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:19:40:221 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:33:22:266 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="29">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Image name reference strings should go into a global constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code. This makes life easier for developer, especially when they need to modify this value, it is just one change compared to scouring through all the js files and replacing it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQKXBRU">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:32:01:818 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:33:06:632 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="24">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQKZ9V7">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:33:32:659 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:34:08:819 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="25">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQL0CCN">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:34:22:535 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:34:40:132 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="28">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQL11KB">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:34:55:211 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:35:10:913 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="32">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQL1NCM">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:35:23:446 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:36:34:501 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="57">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Never have Function calls as strings</Summary>
+    <Description>Never have Function calls as strings. It is evil to use eval.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQL467W">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:37:21:212 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:37:36:838 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="90">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQL4SY4">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:37:50:668 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:38:23:692 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="93">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Do not re-evalute a boolean in conditional statements</Summary>
+    <Description>fromBack is a boolean, no need to again check for it's truth value in if condition</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQL7AUU">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:39:47:190 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:40:08:511 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="114">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQLBK49">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:43:05:817 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:43:53:515 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="111">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is defined but never used</Summary>
+    <Description>Function is defined but never used, get rid of such functions.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQLCOKR">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:43:58:251 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:45:41:280 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="113">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Functions defined within function(no closures here)</Summary>
+    <Description>If the dev is not intending to use closures, functions within function is not acceptable. It serves no purpose, creates ambiguity</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQLEZ45">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:45:45:221 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:46:07:292 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="119">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Functions defined within function(no closures here)</Summary>
+    <Description>If the dev is not intending to use closures, functions within function is not acceptable. It serves no purpose, creates ambiguity</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQLFLVN">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:46:14:723 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:46:32:400 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="124">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQLGA6W">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:46:46:232 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:46:57:582 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="136">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQLHN6P">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:47:49:729 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:49:06:614 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="153">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>function name misnomer</Summary>
+    <Description>The function name says something and does something else, apart from showing the form.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQLJFOU">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:49:13:326 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:50:43:512 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="155">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Resetting of form data should be in another module</Summary>
+    <Description>It is always a recommended practice to have the code that resets the form data in another function/module</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQLN7X8">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:52:09:884 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:52:20:233 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="167">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is defined but never used</Summary>
+    <Description>Function is defined but never used, get rid of such functions.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQLO3HR">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:52:50:799 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 09:53:32:811 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="186">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is defined but never used</Summary>
+    <Description>Function is defined but never used, get rid of such functions.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQPBA59">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:34:51:357 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:35:19:508 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="13">modules/js/actionMappingVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Empty Function -- Never Used</Summary>
+    <Description>Delete this function, it's empty and never used.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQPH67W">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:39:26:204 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:39:48:965 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="30">modules/js/AlertsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Image name reference strings should go into a global constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout  the code. This makes life easier for developer, especially when they need to modify this value, it is just one change compared to scouring through all the js files and replacing it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQPJGTO">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:41:13:260 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:41:29:788 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="24">modules/js/AlertsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQPLJ4G">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:42:49:552 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:43:39:242 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="14">modules/js/AlertsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>This goes in global scope and is nulled, why?</Summary>
+    <Description>Ambiguous code</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQPN1JJ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:44:00:079 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:45:01:543 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="48">modules/js/AlertsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>use ! operator for negative checks on booleans</Summary>
+    <Description>if(isPageLimit==false) is same as if(!isPageLimit)</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQPQDYX">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:46:36:153 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 11:46:44:990 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="58">modules/js/AlertsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Never have Function calls as strings.</Summary>
+    <Description>Never have Function calls as strings. It is evil to use eval.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQQAO5Z">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:02:22:487 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:02:36:379 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="196">modules/js/AlertsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>function name misnomer</Summary>
+    <Description>The function name says something and does something else, apart from showing the form.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQQIVMJ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:08:45:403 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:09:16:203 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="16">modules/js/backApplicationSepecificVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Empty function body</Summary>
+    <Description>Empty function body. Either delete this function or add appropriate code in the body.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQQT1WU">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:16:40:110 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:18:25:778 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="59">modules/js/backVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Get rid of copy paste code</Summary>
+    <Description>this piece of code 
+{ formHandler : formRefVA, formContext : formTableVA }
+is used multiple times, instead it could be assigned to a variable and the variable should be used.
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQQVJKS">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:18:36:316 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:19:56:906 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="51">modules/js/backVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Too much cyclomatic complexity</Summary>
+    <Description>the function is hard to understand</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQQYZI2">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:21:16:922 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:21:41:132 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="66">modules/js/backVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Code duplication in both if and else</Summary>
+    <Description>Code duplication in both if and else</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQR0SI6">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:22:41:166 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:23:33:111 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="109">modules/js/backVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>function name is a misnomer</Summary>
+    <Description>instead of popAll, function name cleargBackStackVa() makes more sense</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQR2LH1">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:24:05:365 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:24:44:821 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="146">modules/js/backVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>function should just have one return</Summary>
+    <Description>As a coding best practice, function should have only one return statement</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQRI5FW">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:36:11:084 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:37:31:686 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="165">modules/js/backVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>kony.os.deviceInfo() could be made a global constant</Summary>
+    <Description>kony.os.deviceInfo() is used in multiple places in the entire codebase. Hence this is a very good candidate to make a property of the global constant object.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQROR7W">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:41:19:244 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:42:24:330 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="12">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>use switch case statment</Summary>
+    <Description>this piece of code should be made a switch case statement. These many if's just increases the cyclomatic complexity of the code.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQRRKC6">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:43:30:294 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:43:42:338 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="60">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Image name reference strings should go into a global constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout  the code. This makes life easier for developer, especially when they need to modify this value, it is just one change compared to scouring through all the js files and replacing it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQRSSO3">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:44:27:747 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:44:53:724 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="62">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>kony.os.deviceInfo() could be made a global constant</Summary>
+    <Description>kony.os.deviceInfo() is used in multiple places in the entire codebase. Hence this is a very good candidate to make a property of the global constant object.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQRV9EK">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:46:22:748 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:46:37:547 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="101">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>use switch case statement instead</Summary>
+    <Description>this piece of code should be made a switch case statement. These many if's just increases the cyclomatic complexity of the code.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQRYL7W">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:48:58:028 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:49:29:140 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="165">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function name is a misnomer</Summary>
+    <Description>Function name is a misnomer, it is doing something else opposed its name</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQS0OHE">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:50:35:570 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:50:58:990 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="174">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Logic could be better</Summary>
+    <Description>This logic can be written in a better way</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQSB1G7">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:58:38:935 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:58:51:360 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="188">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use switch case statement</Summary>
+    <Description>this piece of code should be made a switch case statement. These many if's just increases the cyclomatic complexity of the code.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQSBZRB">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 12:59:23:399 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:00:03:064 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="251">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use switch case statement</Summary>
+    <Description>More than two if-else conditions in succession are ideal candidates for using switch case statement</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQSDI4L">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:00:33:861 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:01:21:851 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="265">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Move it to a Date Util object</Summary>
+    <Description>This function is ideal to be moved into a Date util class</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQSF98C">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:01:55:644 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:02:09:414 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="287">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Move this to a Date Util Class</Summary>
+    <Description>This function is ideal to be moved into a Date util class</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQSFQKK">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:02:18:116 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:02:33:771 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="312">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Move it to a Date Util Class</Summary>
+    <Description>This function is ideal to be moved into a Date util class</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQSG9W2">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:02:43:154 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:03:11:684 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="335">modules/js/CommonController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Never use eval</Summary>
+    <Description>Never use eval in your code. Using eval is evil</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQSKNAK">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:06:07:148 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:07:22:017 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="16">modules/js/configurationVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQSMLFA">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:07:38:038 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:08:50:293 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="28">modules/js/configurationVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Error String should be in global error constants class</Summary>
+    <Description>Error Strings should be stored in a global Error constants object and accessed uniformly throughout the code
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQSSTWR">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:12:28:971 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:14:22:222 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="6">modules/js/configVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is never used</Summary>
+    <Description>This function is never used. Can be deleted.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQT1W3O">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:19:31:716 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:20:08:574 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="46">modules/js/ContractController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Do not re-evalute a boolean in conditional statements</Summary>
+    <Description>fromBack is a boolean, no need to again check for it's truth value in if condition, use ! operator instead</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQT3BUO">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:20:38:784 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:20:46:346 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="57">modules/js/AccessDocsController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Never have Function calls as strings.</Summary>
+    <Description>Never have Function calls as strings. It is evil to use eval.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQT4KL9">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:21:36:765 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:21:43:079 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="56">modules/js/ContractController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Never have Function calls as strings.</Summary>
+    <Description>Never have Function calls as strings. It is evil to use eval.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQT5MKZ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:22:26:003 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:24:56:295 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="94">modules/js/ContractController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Do not re-evalute a boolean in conditional statements</Summary>
+    <Description>fromBack is a boolean, no need to again check for it's truth value in if condition</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTAFHW">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:26:10:100 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:26:34:625 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="112">modules/js/ContractController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is never used</Summary>
+    <Description>This function is never used. Can be deleted.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTBHU8">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:26:59:792 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:27:10:795 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="134">modules/js/ContractController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is never used</Summary>
+    <Description>This function is never used. Can be deleted.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTC491">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:27:28:837 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:27:39:666 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="156">modules/js/ContractController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is never used</Summary>
+    <Description>This function is never used. Can be deleted.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTE9HT">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:29:08:945 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:29:17:277 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="172">modules/js/ContractController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is never Used</Summary>
+    <Description>This function is never used. Can be deleted.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTEQ3N">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:29:30:467 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:29:42:157 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="193">modules/js/ContractController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is never used</Summary>
+    <Description>This function is never used. Can be deleted.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTHGQK">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:31:38:300 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:32:02:679 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="14">modules/js/CustomerController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>variable never used</Summary>
+    <Description>This variable is never used.Clean it up.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTJQFQ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:33:24:182 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:33:41:758 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="47">modules/js/CustomerController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>use ! operator for negative checks on booleans</Summary>
+    <Description>if(isPageLimit==false) is same as if(!isPageLimit)</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTKA6I">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:33:49:770 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:34:37:025 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="57">modules/js/CustomerController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Never use eval</Summary>
+    <Description>Never use eval in your code. Using eval is evil</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTM9EH">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:35:22:073 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:35:50:903 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="101">modules/js/CustomerController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Do not re-evalute a boolean in conditional statements</Summary>
+    <Description>fromBack is a boolean, no need to again check for it's truth value in if condition</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTNR5H">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:36:31:733 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:36:44:898 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="119">modules/js/CustomerController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>function is never used.</Summary>
+    <Description>This function is never used. Can be deleted.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTODQK">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:37:01:004 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:37:10:102 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="141">modules/js/CustomerController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>function is never used</Summary>
+    <Description>This function is never used. Can be deleted.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTP2SF">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:37:33:471 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:37:51:246 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="169">modules/js/CustomerController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>function is never used. Also a misnomer</Summary>
+    <Description>This function is never used. Can be deleted.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTPYBI">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:38:14:334 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:38:23:757 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="191">modules/js/CustomerController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>function is never used</Summary>
+    <Description>This function is never used. Can be deleted.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQTROXK">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:39:35:480 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 13:39:44:014 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="14">modules/js/CustomerInvoicesController.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>variable is never used</Summary>
+    <Description>This variable is never used.Clean it up.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQWAH6N">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:50:11:135 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:52:05:496 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="28">modules/js/dashBoardVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Initialize variables with appropriate default value</Summary>
+    <Description>Initializing variables with appropriate values will give other dev's an idea of what values it holds:
+in this case  var listOfModules = []</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQWEKAP">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:53:21:793 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:53:48:822 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="126">modules/js/dashBoardVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be stored in a global constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code</Description>
+    <Annotation>S</Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQWG8XE">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:54:40:370 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:55:23:907 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="129">modules/js/dashBoardVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Else condition does not make sense here</Summary>
+    <Description>This Else if condition is unnecessary</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQWHSTT">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:55:52:817 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:56:10:751 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="123">modules/js/dashBoardVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is never used</Summary>
+    <Description>Unused function, can delete it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQWJ7FD">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:56:58:393 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:57:17:696 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="145">modules/js/dashBoardVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Unused function</Summary>
+    <Description>This function is never used.Delete it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQWJX1Y">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:57:31:606 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:57:38:498 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="158">modules/js/dashBoardVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Unused Function</Summary>
+    <Description>This function is never used.Delete it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQWKE4D">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:57:53:725 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:58:01:227 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="171">modules/js/dashBoardVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Unused Function</Summary>
+    <Description>This function is never used.Delete it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQWMGAK">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 14:59:29:852 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:00:30:065 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="3">modules/js/equipmentVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Sql Strings should be in a separate Sql Constants class</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout  the code. This makes life easier for developer, especially when they need to modify this value, it is just one change compared to scouring through all the js files and replacing it.
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQWQ0CD">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:02:15:805 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:03:11:438 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="51">modules/js/equipmentVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Print statements should be descriptive</Summary>
+    <Description>Make print statements more descriptive.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQWTI77">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:04:58:915 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:05:30:699 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="77">modules/js/equipmentVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQWUDG6">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:05:39:414 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:06:58:469 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="75">modules/js/equipmentVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>use switch case statement</Summary>
+    <Description>More than two if-else conditions in succession are ideal candidates for using switch case statement</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQX4RB2">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:13:43:934 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:14:03:314 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="27">modules/js/fieldValidationsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is never used</Summary>
+    <Description>Function is never used.Can delete it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQX5OPK">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:14:27:224 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:14:58:179 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="112">modules/js/fieldValidationsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Declare this variable with var</Summary>
+    <Description>Declare this variable with var. Otherwise, this is put in global scope</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQXFHEL">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:22:04:317 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:23:05:454 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="127">modules/js/fieldValidationsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Catch block is empty</Summary>
+    <Description>Catch block should appropriately deal with the error. Should never be swept under the carpet.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQXGW4V">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:23:10:063 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:23:48:877 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="124">modules/js/fieldValidationsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Throw inside a try? what?</Summary>
+    <Description>Inside a try block there shouldn't be any throw statements.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQY5I3M">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:42:18:274 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:44:11:084 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="20">modules/js/fsUtilVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function should have only one return statement</Summary>
+    <Description>Functions should have utmost one return statement. Makes code more readable and consistent.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQYE7FS">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:49:04:360 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:49:33:042 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="15">modules/js/fsUtilVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function is never used.</Summary>
+    <Description>Function is defined but never used. Delete such functions.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQYG5BR">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:50:34:935 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:51:53:785 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="78">modules/js/fsUtilVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function name has to be more specific</Summary>
+    <Description>Function name should be more specific, as this function is returning i18n value for a given key.
+Ex: geti18nValue(key)</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQYISZ8">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:52:38:900 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:53:06:445 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="87">modules/js/fsUtilVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Unused function</Summary>
+    <Description>This function is defined but never used.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQYLW2S">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:55:02:884 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 15:56:10:269 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="100">modules/js/fsUtilVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Wrapper over kony.print is dangerous</Summary>
+    <Description>Wrapper functions over kony.print will make the code sluggish. Before releasing for build have these function references commented in the code.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJQYYXSC">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 16:05:11:628 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 16:06:16:217 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="115">modules/js/fsUtilVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>kony.os.deviceInfo() should be part of a global constant class</Summary>
+    <Description>kony.os.deviceInfo() is used in multiple places in the entire codebase. Hence this is a very good candidate to make a property of the global constant class</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR077PY">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 16:39:37:366 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 16:41:41:999 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="220">modules/js/fsUtilVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Function should be moved to Date util class</Summary>
+    <Description>This function is ideal to be moved into a Date util class</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR141PT">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:05:09:233 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:05:21:852 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="13">modules/js/masterListVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Refactor this code</Summary>
+    <Description>Refactor this code</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR15DB3">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:06:10:911 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:06:36:132 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="47">modules/js/masterListVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Refactor this code</Summary>
+    <Description>Refactor this code to use switch case statement</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR21HOH">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:31:09:569 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:31:34:545 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="7">modules/js/newAcceptWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR2NOEZ">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:48:24:731 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:48:45:745 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="48">modules/js/newAccessDocumentsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Image name reference strings should go into a global constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout  the code. This makes life easier for developer, especially when they need to modify this value, it is just one change compared to scouring through all the js files and replacing it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR2OR6X">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:49:14:985 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:49:57:441 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="47">modules/js/newAccessDocumentsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use switch case statement</Summary>
+    <Description>More than two if-else conditions in succession are ideal candidates for using switch case statement</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR2TBSB">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:52:48:299 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 17:53:26:919 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="162">modules/js/newAccessDocumentsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Sql like string constants should be externalized</Summary>
+    <Description>Sql like string constants should be externalized into a global Sql constants class</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR33HA9">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:00:41:985 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:00:55:618 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="7">modules/js/newAlertDetailsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Refactor code and use switch case</Summary>
+    <Description>Refactor code and use switch case</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR4ESVU">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:37:29:850 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:38:10:311 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="85">modules/js/newAlertDetailsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Image name reference strings should go into a global constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout  the code. This makes life easier for developer, especially when they need to modify this value, it is just one change compared to scouring through all the js files and replacing it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR4LVHX">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:42:59:829 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:43:06:721 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="12">modules/js/newAlertsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Sql like string constants should be externalized</Summary>
+    <Description>Sql like string constants should be externalized into a global Sql constants class</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR4OG26">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:44:59:790 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:45:06:429 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="31">modules/js/newAlertsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Sql like string constants should be externalized</Summary>
+    <Description>Sql like string constants should be externalized into a global Sql constants class</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR4PAVL">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:45:39:729 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:46:04:276 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="52">modules/js/newAlertsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR4R0D3">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:46:59:415 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:47:09:010 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="112">modules/js/newAlertsVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Image name reference strings should go into a global constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout  the code. This makes life easier for developer, especially when they need to modify this value, it is just one change compared to scouring through all the js files and replacing it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR4WQT9">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:51:26:973 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:51:44:913 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="8">modules/js/newCalendarVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR4XNXI">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:52:09:894 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:52:15:936 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="27">modules/js/newCalendarVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Sql like string constants should be externalized</Summary>
+    <Description>Sql like string constants should be externalized into a global Sql constants class</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR4ZFP0">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:53:32:532 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:53:52:322 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="113">modules/js/newCalendarVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Image name reference strings should go into a global constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout  the code. This makes life easier for developer, especially when they need to modify this value, it is just one change compared to scouring through all the js files and replacing it.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR50ZPH">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:54:45:125 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:55:40:040 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="246">modules/js/newCalendarVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Use switch case statement</Summary>
+    <Description>More than two if-else conditions in succession are ideal candidates for using switch case statement</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR54OCS">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:57:37:036 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 18:58:24:433 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="516">modules/js/newCalendarVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Could do with one call to checkDevicePlatformVA()</Summary>
+    <Description>checkDevicePlatformVA could be called just once and have the value stored in a local variable.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR5EU7F">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:05:31:179 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:05:48:294 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="163">modules/js/newCloseWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>String constants should be defined in a constants object</Summary>
+    <Description>String constants should be stored in a global constants object and accessed uniformly throughout the code
+</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR5G5IN">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:06:32:495 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:07:13:749 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="176">modules/js/newCloseWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Just print stmts in the function, no use in release</Summary>
+    <Description>This function just has print stmts, no real use.</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR5HRLM">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:07:47:770 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:08:17:161 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="214">modules/js/newCloseWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Empty function?</Summary>
+    <Description>Empty function, should be deleted</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR5IGP4">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:08:20:296 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:08:26:947 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="222">modules/js/newCloseWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Empty function?</Summary>
+    <Description>Empty function, should be deleted</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR5VETL">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:18:24:393 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:18:45:048 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="566">modules/js/newCloseWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Unreachable code</Summary>
+    <Description>Unreachable code</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+  <ReviewIssue id="HJR5WH69">
+    <ReviewIssueMeta>
+      <CreationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:19:14:097 IST</CreationDate>
+      <LastModificationDate format="yyyy-MM-dd :: HH:mm:ss:SSS z">2013-07-30 :: 19:20:23:247 IST</LastModificationDate>
+    </ReviewIssueMeta>
+    <ReviewerId>Rushi</ReviewerId>
+    <AssignedTo>Rushi</AssignedTo>
+    <File line="251">modules/js/newCloseWorkOrderVA.js</File>
+    <Type>item.label.unset</Type>
+    <Severity>item.label.unset</Severity>
+    <Summary>Do not re-evalute a boolean in conditional statements</Summary>
+    <Description>validateCloseWO2() returns a boolean, no need to again check for it's truth value in if condition</Description>
+    <Annotation></Annotation>
+    <Revision></Revision>
+    <Resolution>item.label.unset</Resolution>
+    <Status>item.status.label.open</Status>
+  </ReviewIssue>
+</Review>
